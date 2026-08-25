@@ -1,0 +1,14 @@
+sequencing_dataset.tsv filter=drs diff=drs merge=drs -text
+sequencing_dataset.tsv drs=ro
+subject.tsv filter=drs diff=drs merge=drs -text
+subject.tsv drs=ro
+sequencing_file.tsv filter=drs diff=drs merge=drs -text
+sequencing_file.tsv drs=ro
+plink_file_wide.tsv filter=drs diff=drs merge=drs -text
+plink_file_wide.tsv drs=ro
+sample.tsv filter=drs diff=drs merge=drs -text
+sample.tsv drs=ro
+sample_set.tsv filter=drs diff=drs merge=drs -text
+sample_set.tsv drs=ro
+population_descriptor.tsv filter=drs diff=drs merge=drs -text
+population_descriptor.tsv drs=ro
